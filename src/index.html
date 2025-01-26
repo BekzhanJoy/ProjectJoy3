@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Блог CRUD</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Добро пожаловать в блог!</h1>
+
+    <h2>Создать новый блог</h2>
+    <form id="blogForm">
+      <label for="author">Имя автора:</label>
+      <input type="text" id="author" name="author" required><br>
+
+      <label for="title">Заголовок:</label>
+      <input type="text" id="title" name="title" required><br>
+
+      <label for="body">Тело блога:</label><br>
+      <textarea id="body" name="body" rows="5" required></textarea><br>
+
+      <button type="submit">Добавить блог</button>
+    </form>
+
+    <h2>Все блоги</h2>
+    <div id="blogs" class="blog-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
