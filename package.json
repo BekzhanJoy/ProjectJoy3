@@ -1,0 +1,16 @@
+{
+  "name": "foodieapp",
+  "version": "1.0.0",
+  "description": "A recipe app",
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
